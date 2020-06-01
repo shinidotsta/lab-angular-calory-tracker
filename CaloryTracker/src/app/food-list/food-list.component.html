@@ -1,0 +1,18 @@
+
+
+<div class="container2">
+        <div *ngFor="let Food of Foods" class="item">
+            <div>
+                <img src="{{Food.image}}" alt="Imagen de {{Food.name}}">
+            </div>
+            
+            <div>
+                <h3>{{Food.name}}</h3>
+                <p> Calory -<span>{{Food.calories}}</span></p>
+                <input type="number" #count>
+                <button class="add-btn" (click)="addCount(count.value,Food)">Add</button>
+            </div>    
+               
+        </div>
+        
+</div>

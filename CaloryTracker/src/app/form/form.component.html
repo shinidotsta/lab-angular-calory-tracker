@@ -1,0 +1,16 @@
+<div class="container">
+    <div id="show">
+        <label for="">Name</label>
+        <input type="text" [(ngModel)]="newFood.name">
+    
+    </div>
+    <div id="show">
+        <label for="">Calory</label>
+        <input type="text" [(ngModel)]="newFood.calories">
+    </div>
+    <div id="show">
+        <label for="">Image</label>
+        <input type="text" [(ngModel)]="newFood.image">
+    </div>
+    <button (click)=addFood(newFood) id="addFood">Add Food</button>
+</div>

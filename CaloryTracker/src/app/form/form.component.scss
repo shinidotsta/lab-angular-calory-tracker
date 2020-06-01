@@ -1,0 +1,26 @@
+.container
+{
+    width:30em;
+    height: 10em;
+    padding: 2em;
+}
+
+.container div{
+    margin: 1em;
+}
+label{
+    font-weight: bold;
+}
+input
+{
+ width: 13em;
+ height: 2em;
+ margin-left: 3em;
+}
+#addFood
+{
+    background-color: orangered;
+    border: none;
+    height: 2em;
+    width: 7em;
+}

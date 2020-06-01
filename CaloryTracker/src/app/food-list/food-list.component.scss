@@ -1,0 +1,39 @@
+
+
+.container2
+{
+    
+     width: 30em;
+     height: auto;
+     padding: 2em;
+}
+.item
+{
+display: grid;
+grid-template-columns: 2fr 2fr;
+border: 1px solid grey;
+background-color: whitesmoke;
+padding: 1em;
+  
+}
+.item img{
+
+ width: 8em;
+ height:8em;
+
+}
+.item h3,p
+{
+   
+    font-weight: bold;
+}
+#count
+{
+    width: 8em;
+    height: 2em;   
+}
+.add-btn
+{
+    background-color: orangered;
+    border: none;
+}
